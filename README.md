@@ -1,56 +1,38 @@
-# IntrusionDetection
+# Model Generation
 
-## Docker
+## General
+The `data` folder contains the data to train the model on.
 
-We have created a docker image with the needed environment to run our system. 
+## Topic Modeeling
+The scripts to train and evaluate a topic model can be found in `lda`.
 
-### Docker Workflow
+## Neural Networks
+The scripts to train and evaluate a neural network can be found in `nn`
 
-1. Build `Dockerfile` with
+> All code runs in Docker containers.
 
-   ```bash
-   docker build -t tristndev/datascience .
-   ```
+## License
+All components are licensed under
+[GPLv3 License](https://github.com/CaseStudyIntrusionDetection/ModelGeneration/blob/master/LICENSE).
 
-2. Start Docker container with docker compose
 
-   ```
-   docker-compose up
-   ```
-
-### Add Python packages
-
-If additional Python packages are needed, simply add them to the `requirements.txt` and rebuild the Docker container. Make sure the changes of `requirements.txt` are reflected in the version control.
-
-## Development Workflow with Jupyter Notebooks
-
-As often done with data science or machine learning projects, we will use [Jupyter Notebooks](https://jupyter.org/) to interactively develop the components of the intrusion detection system.
-
-We follow these conventions:
-
-This notebook serves as a template notebook for us with some general remarks and explanations.
-
-### Naming convention
-
-For the notebooks, we use a naming convention that shows the owner and the order the analysis was done in: `<step>-<author>-<description>.ipynb` (e.g., `0.3-tristan-data_prep.ipynb`).
-
-### Refactoring code
-
-Whenever we need to refactor code originally written in a notebook (i.e., we need it in more than one notebook), we extract it into the `src` directory. In general, it is a good idea to 'refactor the good parts'. 
-We import those files into the notebooks using the following preamble (see `blanko_notebook.ipynb`):
-
-```{python}
-import os, sys
-PROJ_ROOT = os.path.join( os.pardir) # Depending on how deep the notebook is, might need to add more os.pardir
-%load_ext autoreload # Make changes to the src code be seen immediately in the notebook
-%autoreload 2
-
-# Import into project
-from src.data import packagename as dd
 ```
+Model Generation for the CaseStudy IntrusionDetection
+Copyright (C) 2021 CaseStudy IntrusionDetection Developers
 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
 
 
 > The structure was initially based on the
