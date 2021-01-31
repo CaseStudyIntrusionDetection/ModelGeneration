@@ -7,7 +7,7 @@ The `data` folder contains the data to train the model on.
 The scripts to train and evaluate a topic model can be found in `lda`.
 
 ## Neural Networks
-The scripts to train and evaluate a neural network can be found in `nn`
+The scripts to train and evaluate a neural network can be found in `nn`.
 
 > All code runs in Docker containers.
 
