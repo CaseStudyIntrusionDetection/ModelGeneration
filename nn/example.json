@@ -1,0 +1,51 @@
+{
+    "general_setup": {
+        "text_vars": [
+            "uri-path",
+            "uri-query",
+            "body"
+        ],
+        "categ_vars": [
+            "method"
+        ],
+        "num_vars": [
+            "request-length",
+            "uri-length",
+            "body-length"
+        ],
+        "bin_vars": [
+            "Cookie",
+            "Host",
+            "Origin",
+            "User-Agent"
+        ],
+        "target_label": "data_tool"
+    },
+    "nn_setup": {
+        "text": {
+            "max_features": 200,
+            "max_len": 50,
+            "embedding_dim": 30,
+            "layer_type": "bi_rnn",
+            "n_units": 30,
+            "dropout": 0.3
+        },
+        "classifier": {
+            "dropout": 0.3,
+            "n_layers": 2,
+            "n_units": 128
+        },
+        "fitting": {
+            "early_stopping": true,
+            "n_epochs": 15
+        }
+    },
+    "training_data": [
+        "example_selenium.json",
+        "example_zap.json"
+    ],
+    "test_data": [
+        "example_selenium.json",
+        "example_zap.json"
+    ]
+}

@@ -1,0 +1,20 @@
+version: '2.3'
+
+services:
+
+# lda service
+  lda:
+    build:
+      context: ..
+      dockerfile: lda/Dockerfile 
+    container_name: lda
+    restart: never
+    tty: true
+    volumes: 
+      - ./../src:/source/src/
+      - ./../models:/source/models/
+      - ./../reports:/source/reports/
+      - ./../data:/source/data/
+      - ./../references:/source/references/
+      - ./scripts/:/source/scripts/
+    entrypoint: /bin/sh 

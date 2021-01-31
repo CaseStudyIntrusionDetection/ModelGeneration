@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+    jupyter_notebook:
+        build: .
+        container_name: jupyter_notebook
+        restart: unless-stopped
+        hostname: '127.0.0.1'
+        ports:
+        - "8888:8888"         #JupyterNB
+        volumes:
+        - .:/home/jovyan/work

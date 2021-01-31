@@ -1,0 +1,59 @@
+{
+	"pipeline_active" : { 
+		"dataset" : true, 
+		"features" : true,
+		"train" : true,
+		"predict" : true,
+		"visualize": true,
+		"visualize_dataset" : true
+	},
+	"test_data" : [
+		{
+			"name" : "Example ZAP",
+			"file" : "/source/data/raw/example_zap.json",
+			"type" : "attack"
+		},
+		{
+			"name" : "Example Selenium",
+			"file" : "/source/data/raw/example_selenium.json",
+			"type" : "benign"
+		}
+	],
+	"training_data" : [
+		{
+			"name" : "Example ZAP",
+			"file" : "/source/data/raw/example_zap.json",
+			"type" : "attack"
+		},
+		{
+			"name" : "Example Selenium",
+			"file" : "/source/data/raw/example_selenium.json",
+			"type" : "benign"
+		}
+	],
+	"corpus" : {
+		"document_per_request" : true,
+		"document_per_connection_id" : false,
+		"document_request_window_size" : 0,
+		"output_document_topics" : false,
+		"use_times" : false
+	},
+	"output" : {
+		"dir" : "/source/data/",
+		"name" : "example"
+	},
+	"lda" : {
+		"topics" : 20,
+		"max_iteration" : 100000,
+		"alpha" : 0.1,
+		"beta" : 0.1,
+		"min_probability" : 0.001,
+		"gamma_threshold" : 0.001,
+		"min_phi_value" : 0.001
+	},
+	"predict" : {
+		"use_olda" : false,
+		"incrementally_learn_olda_model" : false,
+		"only_zap-id_is_attack" : false
+	}
+}

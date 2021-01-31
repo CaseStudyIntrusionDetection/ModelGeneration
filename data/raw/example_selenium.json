@@ -1,0 +1,348 @@
+[
+    {
+        "id": 0,
+        "timestamp": 1604430250,
+        "connection-id": 0,
+        "request": {
+            "method": "GET",
+            "uri": "/",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "localhost",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-User": "?1",
+            "Sec-Fetch-Dest": "document",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Language": "de,en;q=0.9,sv;q=0.8,fr;q=0.7",
+            "Cookie": "KIMB-Forms-Project=1fa59eb288e3f2e3f0edba70991e3324; "
+        },
+        "sender": {
+            "ip": "172.27.0.1"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "fd6b6fe576404260c203f0208195b5c598a7145d5db9e53edfea3bfdfd2d7884ed3082e6ceb1cdc220977c20018bb22f015e39613b52d1ec39fb99693e4abfb6",
+            "response-size": 4437,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:04:10 GMT",
+                "Content-Type": "text/html; charset=utf-8",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "Cache-Control": "no-store, no-cache, must-revalidate",
+                "Pragma": "no-cache"
+            }
+        }
+    },
+    {
+        "id": 1,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+            "Accept-Encoding": "gzip, deflate"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "fd6b6fe576404260c203f0208195b5c598a7145d5db9e53edfea3bfdfd2d7884ed3082e6ceb1cdc220977c20018bb22f015e39613b52d1ec39fb99693e4abfb6",
+            "response-size": 4437,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "text/html; charset=utf-8",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "Cache-Control": "no-store, no-cache, must-revalidate",
+                "Pragma": "no-cache"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/load/bootstrap/bootstrap-light.min.css?v1.2.7",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "text/css,*/*;q=0.1",
+            "Referer": "http://snare/",
+            "Accept-Encoding": "gzip, deflate",
+            "Cookie": "KIMB-Forms-Project=208ba81ab51d3f644ac6d0a2f40c58fb; "
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "4d08b196e833ed83e85d10249b2c2197fe1b62ffb95412b3f8250347bef0fbe8e59bcbbe91a6765782d374e6871361501ef47e54046a39b2da97c9aec5eef6d4",
+            "response-size": 160533,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "text/css",
+                "Content-Length": "160302",
+                "Last-Modified": "Sun, 25 Oct 2020 17:45:04 GMT",
+                "Etag": "\"5f95b9a0-2722e\"",
+                "Accept-Ranges": "bytes"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/load/jquery-ui-light.theme.min.css?v1.2.7",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "text/css,*/*;q=0.1",
+            "Referer": "http://snare/",
+            "Accept-Encoding": "gzip, deflate",
+            "Cookie": "KIMB-Forms-Project=208ba81ab51d3f644ac6d0a2f40c58fb; "
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "a9542ea0b95bfc45567a9833bdb2f16bff262dd2b3e0df40ca965e080131f865e046b2edd0eeb0af0562a96d449bb41e7d2aaf85820d128694dfb7a1361036cd",
+            "response-size": 15483,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "text/css",
+                "Content-Length": "15469",
+                "Last-Modified": "Sun, 25 Oct 2020 17:45:04 GMT",
+                "Etag": "\"5f95b9a0-3c6d\"",
+                "Accept-Ranges": "bytes"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/load/jquery-ui.min.css?v1.2.7",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "text/css,*/*;q=0.1",
+            "Referer": "http://snare/",
+            "Accept-Encoding": "gzip, deflate",
+            "Cookie": "KIMB-Forms-Project=208ba81ab51d3f644ac6d0a2f40c58fb; "
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "7ee7c5a812498d405f6e51e8d97faaa734615bc2c7ff7e7815f58c6c88951348d28a5bb76cf01309f002f63b5d6a2c62a40faf4c89b686619c4318f1f09d2fab",
+            "response-size": 30733,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "text/css",
+                "Content-Length": "30724",
+                "Last-Modified": "Sun, 25 Oct 2020 17:45:04 GMT",
+                "Etag": "\"5f95b9a0-7804\"",
+                "Accept-Ranges": "bytes"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/load/main.css?v1.2.7",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "text/css,*/*;q=0.1",
+            "Referer": "http://snare/",
+            "Accept-Encoding": "gzip, deflate",
+            "Cookie": "KIMB-Forms-Project=208ba81ab51d3f644ac6d0a2f40c58fb; "
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "5ffb1376325a1a1a8c4a4dba5fe5d37edeef41ed717fbd1b22e671a0230df0fd7c889f71d55f6046a7ca0d6d4c3e2e2a9fd869e4374e27d89868d9213754c920",
+            "response-size": 3005,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "text/css",
+                "Content-Length": "2803",
+                "Last-Modified": "Sun, 25 Oct 2020 17:45:04 GMT",
+                "Etag": "\"5f95b9a0-af3\"",
+                "Accept-Ranges": "bytes"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/load/jquery.min.js?v1.2.7",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "*/*",
+            "Referer": "http://snare/",
+            "Accept-Encoding": "gzip, deflate",
+            "Cookie": "KIMB-Forms-Project=208ba81ab51d3f644ac6d0a2f40c58fb; "
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "6b0b7c6011f6c625f3c3c327142e6b4050958cd2f32036fc70b94ef1c53f5d28b017d528856e1b816ca625ef5ae448661c38f8c3519bfa7d2aeda65122093cc2",
+            "response-size": 89791,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "application/javascript",
+                "Content-Length": "89476",
+                "Last-Modified": "Sun, 25 Oct 2020 17:45:04 GMT",
+                "Etag": "\"5f95b9a0-15d84\"",
+                "Accept-Ranges": "bytes"
+            }
+        }
+    },
+    {
+        "id": 7,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/load/jquery-ui.min.js?v1.2.7",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "*/*",
+            "Referer": "http://snare/",
+            "Accept-Encoding": "gzip, deflate",
+            "Cookie": "KIMB-Forms-Project=208ba81ab51d3f644ac6d0a2f40c58fb; "
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "10b7a48e249754c11a95c2535f8595219d5230c912c97e2ae7d70466f6cdd1f524578c537dbe551d494156af54f327f3f6f659c75387cba49d86fb7aa666ba02",
+            "response-size": 254023,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "application/javascript",
+                "Content-Length": "253668",
+                "Last-Modified": "Sun, 25 Oct 2020 17:45:04 GMT",
+                "Etag": "\"5f95b9a0-3dee4\"",
+                "Accept-Ranges": "bytes"
+            }
+        }
+    },
+    {
+        "id": 8,
+        "timestamp": 1604430348,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/load/md_parser.js?v1.2.7",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Host": "snare",
+            "Connection": "keep-alive",
+            "User-Agent": "dfdsfsdfsdfsd",
+            "Accept": "*/*",
+            "Referer": "http://snare/",
+            "Accept-Encoding": "gzip, deflate",
+            "Cookie": "KIMB-Forms-Project=208ba81ab51d3f644ac6d0a2f40c58fb; "
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "ca78a37a2509a4829e315805263a970c48c25a384ed9b891cc6842dd7b5ba0a05f694faeebb984cd60f2c06a6f8987dd235ecf6dcb9c34c93ba466a57c446eb3",
+            "response-size": 35429,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 03 Nov 2020 19:05:48 GMT",
+                "Content-Type": "application/javascript",
+                "Content-Length": "34564",
+                "Last-Modified": "Sun, 25 Oct 2020 17:45:04 GMT",
+                "Etag": "\"5f95b9a0-8704\"",
+                "Accept-Ranges": "bytes"
+            }
+        }
+    }
+]

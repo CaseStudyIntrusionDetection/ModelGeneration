@@ -1,0 +1,264 @@
+[
+    {
+        "id": 0,
+        "timestamp": 1603827338,
+        "connection-id": 0,
+        "request": {
+            "method": "GET",
+            "uri": "/",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "Connection": "keep-alive",
+            "Accept": "*/*",
+            "User-Agent": "python-requests/2.20.1",
+            "Host": "snare"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "fd6b6fe576404260c203f0208195b5c598a7145d5db9e53edfea3bfdfd2d7884ed3082e6ceb1cdc220977c20018bb22f015e39613b52d1ec39fb99693e4abfb6",
+            "response-size": 4437,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 27 Oct 2020 19:35:38 GMT",
+                "Content-Type": "text/html; charset=utf-8",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "Cache-Control": "no-store, no-cache, must-revalidate",
+                "Pragma": "no-cache"
+            }
+        }
+    },
+    {
+        "id": 1,
+        "timestamp": 1603827340,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache",
+            "Content-Length": "0",
+            "Host": "snare"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "fd6b6fe576404260c203f0208195b5c598a7145d5db9e53edfea3bfdfd2d7884ed3082e6ceb1cdc220977c20018bb22f015e39613b52d1ec39fb99693e4abfb6",
+            "response-size": 4437,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 27 Oct 2020 19:35:40 GMT",
+                "Content-Type": "text/html; charset=utf-8",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "Cache-Control": "no-store, no-cache, must-revalidate",
+                "Pragma": "no-cache"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "timestamp": 1603827340,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/robots.txt",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache",
+            "Content-Length": "0",
+            "Host": "snare"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "5869002faa50dacd58dad9e5798d7d0ae169e9b775fca981365127a1294c368e5d148565246dcceae195d1307ab08b29bfe7a49a3915ff8404cfee113a0bc0fc",
+            "response-size": 3014,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 27 Oct 2020 19:35:40 GMT",
+                "Content-Type": "text/html; charset=utf-8",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "Cache-Control": "no-store, no-cache, must-revalidate",
+                "Pragma": "no-cache"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "timestamp": 1603827346,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/api.php?task=captcha&time=..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252FWindows%252Fsystem.ini",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache",
+            "Content-Length": "0",
+            "Referer": "http://snare/new/",
+            "Cookie": "KIMB-Forms-Project=2265decb56eb0e6bcb9bb35341021e21",
+            "Host": "snare"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "f6f4d0af84f3441eec0d38bcfe023bc6bb2b7168bd2e7006a5937923119732df2c9ad42abbd01fe25520a8bdc5fff51e5ebef4b89e5f99d092df87a1f8b7e19c",
+            "response-size": 6332,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 27 Oct 2020 19:35:46 GMT",
+                "Content-Type": "image/png",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Sun, 01 Jan 2014 00:00:00 GMT",
+                "Cache-Control": "post-check=0, pre-check=0",
+                "Pragma": "no-cache",
+                "X-Robots-Tag": "noindex"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "timestamp": 1603827346,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/api.php?task=captcha&time=c%253A%255CWindows%255Csystem.ini",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache",
+            "Content-Length": "0",
+            "Referer": "http://snare/new/",
+            "Cookie": "KIMB-Forms-Project=2265decb56eb0e6bcb9bb35341021e21",
+            "Host": "snare"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "63052812b2fa7c27fb83b538eea491341a62bbbc6d280ff0b017a26104182c5c7851ea8a79763c55fd88c6fd04f8b55d6806aac0cff4c2080fb6d3bceddc4ac3",
+            "response-size": 7839,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 27 Oct 2020 19:35:46 GMT",
+                "Content-Type": "image/png",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Sun, 01 Jan 2014 00:00:00 GMT",
+                "Cache-Control": "post-check=0, pre-check=0",
+                "Pragma": "no-cache",
+                "X-Robots-Tag": "noindex"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "timestamp": 1603827346,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/api.php?task=captcha&time=..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255CWindows%255Csystem.ini",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache",
+            "Content-Length": "0",
+            "Referer": "http://snare/new/",
+            "Cookie": "KIMB-Forms-Project=2265decb56eb0e6bcb9bb35341021e21",
+            "Host": "snare"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "none",
+            "response-hash": "d69b7438635744622b9e79131f5b07c2aa3a51bbc4c646cf7c05bf43bfe0e6fc25c3efb0d79c399d33b35d76cdaf7ea1e960e96dc4e3e80814992cc053e53138",
+            "response-size": 6374,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 27 Oct 2020 19:35:46 GMT",
+                "Content-Type": "image/png",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Sun, 01 Jan 2014 00:00:00 GMT",
+                "Cache-Control": "post-check=0, pre-check=0",
+                "Pragma": "no-cache",
+                "X-Robots-Tag": "noindex"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "timestamp": 1603827742,
+        "connection-id": 1,
+        "request": {
+            "method": "GET",
+            "uri": "/api.php?task=http%253A%252F%252Fwww.google.com%252F&time=1603827530",
+            "protocol": "HTTP/1.1",
+            "body": ""
+        },
+        "header": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache",
+            "Content-Length": "0",
+            "Referer": "http://snare/new/",
+            "Cookie": "KIMB-Forms-Project=863f67fe7df4fd01eb5be1e89007bbeb",
+            "Host": "snare"
+        },
+        "sender": {
+            "ip": "172.27.0.5"
+        },
+        "honeypot": {
+            "used-emulator": "rfi",
+            "response-hash": "67821ed6cae07173f4132bbbfa8eea4d3fee33041b85bf69c7cbf931c1b0acaab946018316d2e518193e26e0a9a497ba171c536ecf827f883b63767133e427e9",
+            "response-size": 13019,
+            "response-status-code" : 200, 
+            "response-header": {
+                "Server": "nginx",
+                "Date": "Tue, 27 Oct 2020 19:42:22 GMT",
+                "Content-Type": "text/plain",
+                "X-Powered-By": "PHP/7.4.11",
+                "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                "Cache-Control": "no-store, no-cache, must-revalidate",
+                "Pragma": "no-cache"
+            }
+        }
+    }
+]
